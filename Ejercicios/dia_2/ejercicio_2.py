@@ -88,7 +88,7 @@ circum_del_circulo = 3.14 * 30
 
 radio = input("Ingrese el radio del circulo: ")
 
-area = 3.14 * radio ** 2
+area = 3.14 * pow(float(radio),2)
 
 print(area_del_circulo)
 print(circum_del_circulo)
