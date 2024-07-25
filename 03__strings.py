@@ -174,3 +174,57 @@ print(saludo2[::-1])
 lenguage9 = "python"
 
 pto = lenguage9[0:6:2]
+
+# MeTODOS DE CADE
+
+# capitalize(): combierte el primer caracter en letra mayuscula
+
+saludando = "hola como estas"
+print(saludando.capitalize())
+
+# count(): devuelve lasocurrencias de la subcadena
+
+print(saludando.count("o"))
+print(saludando.count("a"))
+print(saludando.count("o",4,14))
+print(saludando.count("ho"))
+
+# endeswit():comprueba si una cadena termina  con  algo en especifico
+
+print(saludando.endeswit("as"))
+print(saludando.endeswit("como"))
+
+
+# expandtabs(): reemplaza el caracter de tabulacion  con espacio
+
+print(saludando.expandtabs())
+print(saludando.expandtabs(10))
+
+# find(): devuelve el indice de la primera  aparicion de una subcadena, si no se encuentra devuelve -1
+
+print(saludando.find("h"))
+print(saludando.find("as"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
