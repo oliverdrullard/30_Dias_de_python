@@ -191,8 +191,8 @@ print(saludando.count("ho"))
 
 # endeswit():comprueba si una cadena termina  con  algo en especifico
 
-print(saludando.endeswit("as"))
-print(saludando.endeswit("como"))
+print(saludando.endswith("as"))
+print(saludando.endswith("H"))
 
 
 # expandtabs(): reemplaza el caracter de tabulacion  con espacio
@@ -204,6 +204,98 @@ print(saludando.expandtabs(10))
 
 print(saludando.find("h"))
 print(saludando.find("as"))
+
+# rfind():Devuelve el indece de la ultima aparicion de la subcadena si no se encuentra  devulve -1
+
+print("Usando la funcion rfind()")
+
+print(saludando.rfind("o"))
+print(saludando.rfind("c"))
+
+
+# format(): formatea la cadena para tenner una salida mas agradable
+
+print("Usando la funcion format() y el formateo con la f delante")
+
+nom = "oliver"
+apell = "drullard"
+ege = 250
+
+cadena_formateda = "Mi nombre es {} {} y tengo {} años".format(nom,apell,ege)
+cadena_format2 = f"Mi nombre es {nom} {apell} y tengo {ege} años"
+
+print(cadena_formateda)
+print(cadena_format2)
+
+# index(): devuelve el indice mas bajo de una subcadena
+
+print("Usando la funcion index()")
+
+sup_string = "como"
+
+print(saludando.index("como"))
+print(saludando.index(sup_string))
+
+# rindex(): devuelve el indice mas alto de una subcadena
+
+print("Usando la funcion rindex()")
+
+print(saludando.rindex("como"))
+print(saludando.rindex(sup_string))
+
+# isalnum(): comprueba caracteres alfanumericos
+
+print("Usando la funcion isalnum()")
+
+reto = "trentaDiasdepython"
+reto2 = "30Diasdepython"
+
+print(reto.isalnum())
+print(reto2.isalnum())
+
+# isalpha(): comprueba si todos los elementos de la cadena son carecteres alfabeticos(az-AZ)
+
+print("Usando la funcion isalpha()")
+
+num = "123456789"
+
+print(saludando.isalpha())
+print(num.isalpha())
+
+
+# isdecimal(): comprueba si todos los caracteres de una cadena son decimales(0-9)
+
+print("Usando la funcion isdecimal()")
+
+print(saludando.isdecimal())
+print(num.isdecimal())
+
+# isdegit():comprueba si todos los carecteres de una cadena son numeros(0-9)
+
+print("Usando la funcion isdegit()")
+
+num2 = 30
+
+print(saludando.isdigit())
+print(num2.isdigit())
+
+
+# isnumeric(): compueba si todos los caracteres de una cadena son numeros  o estan relacionados con numros
+
+
+num = '10'
+print(num.isnumeric()) # True
+num = '\u00BD' # ½
+print(num.isnumeric()) # True
+num = '10.5'
+print(num.isnumeric()) # False
+
+
+
+
+
+
+
 
 
 
