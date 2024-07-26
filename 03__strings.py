@@ -274,7 +274,7 @@ print(num.isdecimal())
 
 print("Usando la funcion isdegit()")
 
-num2 = 30
+num2 = "30"
 
 print(saludando.isdigit())
 print(num2.isdigit())
@@ -282,13 +282,74 @@ print(num2.isdigit())
 
 # isnumeric(): compueba si todos los caracteres de una cadena son numeros  o estan relacionados con numros
 
+print("Usando la funcion isnumeric()")
 
-num = '10'
-print(num.isnumeric()) # True
-num = '\u00BD' # ½
-print(num.isnumeric()) # True
-num = '10.5'
-print(num.isnumeric()) # False
+num3 = '10'
+print(num3.isnumeric()) # True
+num4 = '\u00BD' # ½
+print(num4.isnumeric()) # True
+num5 = '10.5'
+print(num5.isnumeric()) # False
+
+# isidentifier(): comprueba si hay un identificador valido: comprueva si una cadena es un nombre de variable valido
+
+print("Usando la funcion isidentifier()")
+
+proyec = "30DiasEnPython"
+proyec1 = "trenta Dias En Python"
+
+print(proyec.isidentifier())
+print(proyec1.isidentifier())
+
+# islower(): comprueba si todos los  caracteres del alfabeto en la cadena estan en minusculas
+
+print("Usando la funcion islower()")
+
+print(proyec.islower())
+print(proyec1.islower())
+
+# isupper(): comprueba si todos los caracteres del alfabeto en la cadena estan en mayusculas
+
+print("Usando la funcion islower()")
+
+print(proyec.isupper())
+print(proyec1.isupper())
+
+# join(): devuelve una cadena con una separacion indicada.
+
+print("Usando la funcion join()")
+
+leng = ["HTML","CSS","JAVASCRIPT","REACT"]
+obje = "Con la nota alta"
+union = ",".join(leng)
+
+print(union)
+print("#".join(obje))
+print(" ".join(obje))
+
+
+# strip(): elimina todos los caracteres dados comenzando desde el principio u el final de la cadena y tambien puede eliminar espacios en blaco
+
+# NOTA: si le pasas un carecter que esta en medio no lo eliminara, solo elimina el principio y el final de una cadena y los espacios en blanco
+
+
+print("Usando la funcion strip()")
+
+print(obje.strip("Con"))
+print(obje.strip("alta"))
+print(obje.strip()) # este elimina los espacios en blanco pero solo del principo y el final de la cadena
+
+# replace(): se utiliza para  reemplazar partes de una cadena por otra cadena
+
+print("Usando la funcion replace()")
+
+cadena_normal = "Hoy es un lindo dia para morir"
+cadena_nueva = cadena_normal.replace("morir","Vivir al maximo")
+print("La cadena normal es:",cadena_normal)
+print("La cadena nueva es:",cadena_nueva)
+
+
+
 
 
 
