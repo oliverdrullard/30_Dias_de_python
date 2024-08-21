@@ -182,7 +182,7 @@ pto = lenguage9[0:6:2]
 saludando = "hola como estas"
 print(saludando.capitalize())
 
-# count(): devuelve lasocurrencias de la subcadena
+# count(): devuelve las ocurrencias de la subcadena
 
 print(saludando.count("o"))
 print(saludando.count("a"))
