@@ -348,9 +348,38 @@ cadena_nueva = cadena_normal.replace("morir","Vivir al maximo")
 print("La cadena normal es:",cadena_normal)
 print("La cadena nueva es:",cadena_nueva)
 
+# split(): divide la cadena, utilizando la cadena dada o el espacio como separador
+print("Usando la funcion split()")
+
+reto = "trenta dias en python"
+print(reto.split())
+
+reto_2 = "trenta dias en python"
+print(reto_2.split(", "))
 
 
+# title(): Esta funcion se utiliza para convertir la primera letra  de una cadena a mayuscula y la podemos utilizar para los titulos y los nombres propios.
+print("Usando la funcion title()")
 
+texto_corto = "hola mundo"
+titulo_3 = texto_corto.title()
+print(titulo_3)
+
+# swapcase(): Esta funcion se utiliza para invertir las cadenas de mayusculas a minusculas y de minusculas a mayusculas dependiendo el caso.
+print("Usando la funcion swapcase()")
+
+texto = "Hola Mundo"
+resultado = texto.swapcase()
+print(resultado)
+
+# La función startswith() en Python se utiliza para verificar si una cadena comienza con un prefijo específico. Retorna True si la cadena comienza con el prefijo dado y False en caso contrario.
+print("Usando la funcion startswith()")
+texto = "Hola Mundo"
+resultado = texto.startswith("Hola")
+print(resultado) 
+
+resultado = texto.startswith("Mundo")
+print(resultado)  
 
 
 
