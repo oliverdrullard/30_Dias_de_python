@@ -130,7 +130,7 @@ print(animal)
 
 # Insertar elementos en una lista
 
-# Usando el metodo insert(), esta funcion recibe dos argumentos, el primero la pocion donde se va a insertar el elemento y el segundo el elemento que se quiere insertar
+# Usando el metodo insert(), esta funcion recibe dos argumentos, el primero la posicion donde se va a insertar el elemento y el segundo el elemento que se quiere insertar
 
 vegetales = ['Tomate', 'zanaoria', 'aji','ajo', 'apio']  
 
