@@ -170,7 +170,7 @@ print(paises)
 del paises # Eliminando la lista completa, al imprimir la lista en este punto no saldra nada en consolo o un error porque la lista no estara definida
 
 
-# Vaciendo un lista o borrando los itens que tiene dentro, metodo a utilizar .clear()
+# Vaciendo una lista o borrando los itens que tiene dentro, metodo a utilizar .clear()
             
 tecnologias = ['HTML', 'CSS', 'JS', 'React','Redux', 'Node', 'MongDB'] 
 

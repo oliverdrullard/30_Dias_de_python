@@ -31,7 +31,7 @@ print(mixed_data_types)
 
 #8 Imprima el número de empresas en la lista
 
-print(it_companies)
+print(len(it_companies))
 
 #9 Imprima la primera, la segunda y la última empresa.
 
@@ -57,3 +57,73 @@ print(it_companies)
 it_companies[0] = it_companies[0].upper()
 print(it_companies)
 
+#14 Unir it_companies con una lita '#; '
+
+nw_list_separador = "#;".join(it_companies)
+print(nw_list_separador)
+
+#15 Comprueba si una determinada empresa existe en la lista it_companies.
+
+print("Diversity" in it_companies) # Flase
+print("Microsoft" in it_companies) # True
+
+#16 Ordenar la lista usando el método sort()
+
+it_companies.sort()
+print(it_companies)
+
+#17 Invierta la lista en orden descendente utilizando el método reverse()
+
+it_companies.reverse()
+print(it_companies)
+
+it_companies.sort(reverse = True)
+print(it_companies)
+
+#18 Separa las primeras 3 empresas de la lista
+
+empresas_primarias = it_companies[0:3]
+print(empresas_primarias)
+
+#19 Elimina las últimas 3 empresas de la lista
+
+del it_companies[5:8]
+print(len(it_companies))
+print(it_companies)
+
+#20 Elimina de la lista las empresas de TI intermedias
+
+it_companies.pop(2)
+print(it_companies)
+
+#21 Eliminar la primera empresa de TI de la lista
+
+it_companies.remove("Microsoft")
+print(it_companies)
+
+#22 Eliminar la última empresa de TI de la lista
+
+it_companies.pop(2)
+print(it_companies)
+
+#23 Eliminar todas las empresas de TI de la lista
+
+it_companies.clear()
+print(it_companies)
+
+#24 Destruir la lista de empresas de TI
+
+del it_companies
+
+#25 Únete a las siguientes listas
+
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+
+front_end.extend(back_end)
+print(front_end)
+
+#26 Después de unir las listas de la pregunta 26, copie la lista unida y asígnela a una variable full_stack. Luego inserte Python y SQL después de Redux.
+
+full_stack = front_end.copy()
+print(full_stack)
