@@ -65,7 +65,7 @@ print(hackers)
 
 # Eliminado el set 
 
-#del hackers
+del hackers
 #print(hackers) # NameError: name 'hackers' is not defined, esto sucede porque el "del" elimina la variable donde almacenamos la estructura del set
 
 # Comvertir una lista en un set
