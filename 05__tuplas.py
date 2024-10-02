@@ -68,4 +68,7 @@ print(stend_tecnologico)
 
 del frutas
 
-# print(frutas) NameError: nombre 'frutas' no esta  definido
+# print(frutas) NameError: nombre 'frutas' no esta  definido}
+
+esto es una prueba de como se ve la camara grabando
+el teclado con la camara de un telefono 
