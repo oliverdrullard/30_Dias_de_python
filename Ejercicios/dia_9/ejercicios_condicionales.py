@@ -38,3 +38,11 @@ elif mi_edad == otra_edad:
     print("Tenomos la misma edad")
 else:
     print("Edades no validadas")
+
+# Escriba un código que califique a los estudiantes según sus puntuaciones
+maria =[80,]
+
+if estudiante >= 90 or estudiante == 100:
+    print("A")
+
+
