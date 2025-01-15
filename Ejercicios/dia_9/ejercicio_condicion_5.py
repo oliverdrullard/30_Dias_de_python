@@ -54,3 +54,4 @@ elif "Node" in persona["habilidades"] and "MongoDB" in persona["habilidades"] an
 else:
     print("Titulo desconocido")
 
+
