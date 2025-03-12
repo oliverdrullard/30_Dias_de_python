@@ -1,0 +1,47 @@
+**Examen sobre Funciones en Python**
+
+**Instrucciones:** Responde las siguientes preguntas teóricas y resuelve los ejercicios prácticos.
+
+---
+
+### **Parte Teórica**
+
+1. ¿Qué es una función en Python y cuál es su propósito principal?
+2. Explica la diferencia entre una función con y sin retorno de valor.
+3. ¿Qué son los parámetros y los argumentos en una función? Explica con un ejemplo.
+4. ¿Qué es el concepto de "alcance de una variable" dentro de una función? Explica la diferencia entre variables locales y globales.
+5. ¿Qué son las funciones lambda en Python? Escribe un ejemplo de uso.
+6. ¿Cuál es la diferencia entre *args y **kwargs en los parámetros de una función? Proporciona un ejemplo de cada uno.
+7. ¿Qué es la recursividad en funciones? Proporciona un ejemplo de una función recursiva.
+8. Explica qué es el concepto de "decorador" en Python y da un ejemplo sencillo.
+9. ¿Cuál es la diferencia entre una función built-in y una función definida por el usuario?
+10. ¿Qué sucede si se llama a una función antes de definirla en el código?
+
+---
+
+### **Parte Práctica**
+
+1. Escribe una función que reciba dos números como parámetros y devuelva su suma.
+
+2. Crea una función que reciba un número y devuelva `True` si es par y `False` si es impar.
+
+3. Escribe una función que reciba una lista de números y devuelva la suma de todos los elementos.
+
+4. Crea una función que reciba una cadena de texto y devuelva la misma cadena en orden inverso.
+
+5. Escribe una función recursiva para calcular el factorial de un número.
+
+6. Crea una función que reciba un número `n` y devuelva una lista con los `n` primeros números de la serie de Fibonacci.
+
+7. Define una función que use *args para recibir múltiples números y devolver el mayor de ellos.
+
+8. Escribe una función que reciba un diccionario con nombres de estudiantes como claves y sus calificaciones como valores. La función debe devolver el nombre del estudiante con la calificación más alta.
+
+9. Crea una función que reciba una lista de palabras y devuelva un diccionario donde las claves sean las palabras y los valores sean la cantidad de veces que aparecen en la lista.
+
+10. Define un decorador llamado `tiempo_ejecucion` que mida el tiempo de ejecución de una función y lo imprima en pantalla.
+
+---
+
+**¡Éxito en tu examen!**
+
